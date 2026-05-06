@@ -57,7 +57,7 @@ if (form) {
     const msg = encodeURIComponent(
       `Olá! Meu nome é ${name}, telefone ${phone}. Gostaria de verificar meu direito ao Auxílio-Acidente.`
     );
-    window.open(`https://wa.me/5511999999999?text=${msg}`, '_blank');
+    window.open(`https://wa.me/5511995076662?text=${msg}`, '_blank');
   });
 }
 

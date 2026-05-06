@@ -196,6 +196,49 @@ body {
   50% { transform:translateY(-10px); }
 }
 
+/* PARTNERS */
+.partners-section {
+  padding: 40px 0;
+  background: var(--gray-50);
+  border-bottom: 1px solid var(--gray-100);
+  text-align: center;
+}
+.partners-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--gray-500);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 24px;
+}
+.partners-logo-track {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+.partners-logo-track:hover {
+  opacity: 1;
+}
+.partners-logo {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--gray-400);
+  letter-spacing: -0.5px;
+  transition: all 0.3s;
+  cursor: default;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.partners-logo:hover {
+  color: var(--primary);
+  transform: scale(1.05);
+}
+
 /* ABOUT SECTION */
 .about-grid {
   display:grid; grid-template-columns:1fr 1fr;
